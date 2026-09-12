@@ -12,7 +12,7 @@ class SaiyamException extends Exception{                      //in order to make
     }
 }
 
-public class typeException {
+public class typeExceptionthrow {
     public static void main(String a[]) {
         int i = 0;
         int j = 0;
