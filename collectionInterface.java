@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 public class collectionInterface {
     public static void main(String a[]) {
@@ -12,9 +11,9 @@ public class collectionInterface {
         nums.add(2);
         //nums.add("5");                 //it helps user by giving compile time error istead of runtime error
  
-        for (n : nums) [           
+        for (int n : nums) {         
             int num = (Integer) n;
             System.out.println(num * 2);      //if we were to explicitly typecase it will not detect error in compile time
-        ]
+        }
     }
 }
