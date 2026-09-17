@@ -1,11 +1,10 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;                //no duplicate elements
 
-public class collectionInterface {
+public class collectionSetInterface {
     public static void main(String a[]) {
 
-        Collection<Integer> nums = new ArrayList<Integer>();      //<> these are called generics 
+        Set<Integer> nums = new HashSet<Integer>();      //Set is implemented in HashSet while Set implements Collection
         nums.add(6);
         nums.add(5);
         nums.add(8);
